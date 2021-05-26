@@ -4,6 +4,7 @@
   "description": "rest api for test",
   "main": "index.js",
   "scripts": {
+    "start": "json-server --watch carga.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
