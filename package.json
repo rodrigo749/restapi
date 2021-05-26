@@ -3,25 +3,26 @@
   "version": "1.0.0",
   "description": "rest api for test",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-server": "^0.16.3"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "json-server --watch carga.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rodrigo749/restapi.git"
   },
-  "keywords": [],
-  "author": "Rodrigo Dias",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rodrigo749/restapi/issues"
   },
-  "homepage": "https://github.com/rodrigo749/restapi#readme",
-  "dependencies": {
-    "json-server": "^0.16.3"
-  },
-  "engines": {
-    "node": "12.x"
-  }
+  "homepage": "https://github.com/rodrigo749/restapi#readme"
 }

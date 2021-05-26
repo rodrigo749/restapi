@@ -1,6 +1,7 @@
 const express = require ("express");
 const app = express();
-const importData = requeri("./data.json");
+const importData = require("./data.json");
+const importCarga = require("./carga.json")
 let port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
@@ -9,6 +10,10 @@ app.get("/", (req, res) => {
 
 app.get("/players", (req, res) => {
     res.send(importData);
+})
+
+app.get("/cargas", (req, res) => {
+    res.send(importCarga);
 })
 
 app.listen(port, () => {
