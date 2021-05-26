@@ -20,5 +20,8 @@
   "homepage": "https://github.com/rodrigo749/restapi#readme",
   "dependencies": {
     "json-server": "^0.16.3"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
